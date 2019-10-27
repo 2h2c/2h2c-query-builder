@@ -8,13 +8,13 @@ This is basically a small develop to test how to work with interfaces and its im
 
    QueryBuilder queryBuilder = new QueryBuilderImpl();
 
-        List data = queryBuilder
+   List data = queryBuilder
                 .connect("jdbc:postgresql://localhost:5432/postgres", "postgres", "postgres")
                 .select("nombre")
                 .table("persona", "public")
                 .where("nombre", "juan")
                 .collectData();
 
-        data.forEach(System.out::println);
+   data.forEach(System.out::println);
 
 ```
