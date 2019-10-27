@@ -2,6 +2,8 @@
 
 # Example of use
 
+This is basically a small develop to test how to work with interfaces and its implementations with method chaining.
+
 ```java 
 
    QueryBuilder queryBuilder = new QueryBuilderImpl();
