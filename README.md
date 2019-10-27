@@ -1,6 +1,6 @@
 # 2h2c-query-builder
 
-#Example of use
+# Example of use
 
 ```java 
 
